@@ -1,0 +1,21 @@
+#header {
+	background-image: url(../../images/_MG_4377-sm-bw.jpg);
+	background-size: cover;
+}
+
+#header > .content {
+	background-color: #000000ed;
+	padding: 20px;
+	border-radius: 10px;
+	margin: 100px 0;
+}
+
+.white {
+	color: #fff;
+}
+
+.shadow {
+	text-shadow: 1px 1px 0px #444444; 
+	/* Alas, text-shadow is not supported by IE 
+	(you could try a dropshadow filter) */
+}
