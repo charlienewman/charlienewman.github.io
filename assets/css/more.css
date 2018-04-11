@@ -4,18 +4,25 @@
 }
 
 #header > .content {
-	background-color: #000000ed;
+	background-color: rgba(0,0,0,0.75);
 	padding: 20px;
 	border-radius: 10px;
 	margin: 100px 0;
 }
 
-.white {
-	color: #fff;
+
+
+/* FOOTER - 3 */
+#three .white {
+	color: #fff !important;
 }
 
-.shadow {
-	text-shadow: 1px 1px 0px #444444; 
-	/* Alas, text-shadow is not supported by IE 
-	(you could try a dropshadow filter) */
+#three .shadow {
+	text-shadow: 3px 3px 2px #444444;
+}
+#three h4 {
+	font-size: 2.5em !important; 
+}
+#three p {
+	font-size: 1.5em !important; 
 }
