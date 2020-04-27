@@ -1702,6 +1702,35 @@
 		margin: 0 0 2em 0;
 	}
 
+	span.title {
+		font-size: 3.25em;
+	    font-weight: bold;
+	    margin-bottom: 0.5em;
+	    margin-top: 0.5em;
+	    display: inline-block;
+	}
+
+
+	@media screen and (max-width: 480px) and (orientation: landscape) {
+
+		span.title {
+			font-size: 1.75em;
+		    margin-bottom: 0.25em;
+		    margin-top: 0.25em;
+		}
+
+	}
+
+	@media screen and (max-width: 480px) and (orientation: portrait) {
+
+		span.title {
+			font-size: 1.75em;
+		    margin-bottom: 0.25em;
+		    margin-top: 0.25em;
+		}
+
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: normal;
 		line-height: 1em;
@@ -3843,9 +3872,10 @@
 		}
 
 		#header h1 {
-			font-size: 3.25em;
-			font-weight: bold;
-			margin-bottom: 0.5em;
+		    font-size: 2em;
+		    font-weight: normal;
+		    margin: 0.75em 0em;
+		    line-height: 1.25em;
 		}
 
 		#header p {
@@ -3950,7 +3980,7 @@
 			}
 
 				#header h1 {
-					font-size: 2em;
+					font-size: 1em;
 				}
 
 				#header p {
@@ -4159,6 +4189,12 @@ canvas.particles-js-canvas-el {
     left: 0;
     right: 0;
     z-index: -1;
+}
+
+
+.blurb {
+	font-size: 1.5em;
+	line-height: 1.75em;
 }
 
 #charlie-newman {
